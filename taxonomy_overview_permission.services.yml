@@ -1,0 +1,5 @@
+services:
+  taxonomy_overview_permission.route_subscriber:
+    class: Drupal\taxonomy_overview_permission\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
